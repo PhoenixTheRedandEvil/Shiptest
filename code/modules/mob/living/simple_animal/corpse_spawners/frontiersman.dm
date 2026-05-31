@@ -135,3 +135,33 @@
 	l_hand = null
 	backpack_contents = null
 	box = null
+
+/datum/outfit/frontier/technician
+	name = "Frontiersman Technican Corpse"
+	head = /obj/item/clothing/head/hardhat/frontier
+	suit = /obj/item/clothing/suit/hazardvest
+	glasses = /obj/item/clothing/glasses/safety
+	shoes = /obj/item/clothing/shoes/workboots
+	gloves = /obj/item/clothing/gloves/color/yellow
+	mask = /obj/item/clothing/mask/gas/sechailer
+	belt = /obj/item/storage/belt/utility
+	ears = /obj/item/radio/headset/alt
+	l_pocket = /obj/item/tank/internals/emergency_oxygen/engi
+
+/obj/effect/mob_spawn/human/corpse/frontier/technician
+	outfit = /datum/outfit/frontier/technician
+
+/datum/outfit/frontier/technician/grinder
+	name = "Frontiersman Grinder Technician Corpse"
+	back = /obj/item/gear_pack/anglegrinder
+
+/obj/effect/mob_spawn/human/corpse/frontier/technician/grinder
+	outfit = /datum/outfit/frontier/technician/grinder
+
+/datum/outfit/frontier/technician/foreman
+	name = "Frontiersman Foreman Corpse"
+	uniform = /obj/item/clothing/under/frontiersmen/officer
+	neck = /obj/item/clothing/neck/dogtag/frontier
+
+/obj/effect/mob_spawn/human/corpse/frontier/technician/foreman
+	outfit = /datum/outfit/frontier/technician/foreman

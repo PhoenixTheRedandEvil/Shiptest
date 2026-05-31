@@ -11,6 +11,8 @@
 	atmos_requirements = NORMAL_ATMOS_REQS
 	faction = list(FACTION_ANTAG_FRONTIERSMEN)
 	footstep_type = FOOTSTEP_MOB_SHOE
+	attack_verb_continuous = "stabs"
+	attack_verb_simple = "stab"
 	mob_spawner = /obj/effect/mob_spawn/human/corpse/frontier
 	r_hand = /obj/item/melee/knife/survival
 	dodging = TRUE
@@ -38,6 +40,8 @@
 	name = "Frontiersman Chopper"
 	desc = "A member of the brutal Frontiersman terrorist fleet! This one clutches bulky combat axe, riveting the idea of turning your innards to gore."
 	icon_state = "frontiersmanmelee"
+	attack_verb_continuous = "chops"
+	attack_verb_simple = "chop"
 	icon = 'icons/mob/simple_frontiersman.dmi'
 	speak_chance = 0
 	melee_damage_lower = 25
@@ -61,6 +65,8 @@
 	retreat_distance = 5
 	minimum_distance = 5
 	projectilesound = 'sound/weapons/gun/pistol/mauler.ogg'
+	attack_verb_continuous = "punches"
+	attack_verb_simple = "punch"
 	casingtype = /obj/item/ammo_casing/c9mm
 	mob_spawner = /obj/effect/mob_spawn/human/corpse/frontier/ranged
 	r_hand = /obj/item/gun/ballistic/automatic/pistol/mauler/regular
@@ -597,3 +603,69 @@
 
 /mob/living/simple_animal/hostile/human/frontier/ranged/officer/wasp/internals/neutered
 	weapon_drop_chance = 0
+
+/mob/living/simple_animal/hostile/human/frontier/plasmacutter
+	name = "Frontiersman Scrapcutter"
+	desc = "A member of the brutal Frontiersman terrorist fleet! This one is dressed in engineering gear, and hefts a dangerous looking plasmacutter!"
+	projectilesound = 'sound/weapons/melee/plasmacutter/plasma_cutter_melee.ogg'
+	attack_sound = 'sound/weapons/melee/plasmacutter/plasma_cutter_melee.ogg'
+	projectiletype = /obj/projectile/plasma
+	ranged = 1
+	rapid_fire_delay = 4
+	melee_damage_lower = 20
+	melee_damage_upper = 20
+	armour_penetration = 40
+	attack_verb_continuous = "slices"
+	attack_verb_simple = "slice"
+	r_hand = /obj/item/plasmacutter
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/frontier/technician
+
+/mob/living/simple_animal/hostile/human/frontier/salvager
+	name = "Frontiersman Hullwrecker"
+	desc = "A member of the brutal Frontiersmen terrorist fleet! This one is dressed in engineering gear, and looks ready to break things with a heavy sledgehammer!"
+	maxHealth = 150
+	health = 150
+	melee_damage_lower = 40
+	melee_damage_upper = 40
+	armour_penetration = 40
+	attack_sound = 'sound/weapons/melee/heavyblunt_hit1.ogg'
+	attack_verb_continuous = "smashes"
+	attack_verb_simple = "smash"
+	armor_base = /obj/item/clothing/suit/space/engineer
+	r_hand = /obj/item/melee/sledgehammer
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/frontier/technician
+
+/mob/living/simple_animal/hostile/human/frontier/salvager/grinder
+	name = "Frontiersman Shipbreaker"
+	desc = "A member of the brutal Frontiersmen terrorist fleet! This one is dressed in engineering gear, and wields an angle grinder in their hands, moving with shocking speed despite the battery pack on their back!"
+	melee_damage_lower = 24
+	melee_damage_upper = 24
+	armour_penetration = 20
+	rapid_melee = 2
+	attack_sound = 'sound/weapons/chainsawhit.ogg'
+	attack_verb_continuous = "saws"
+	attack_verb_simple = "saw"
+	r_hand = /obj/item/gear_handle/anglegrinder
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/frontier/technician/grinder
+
+/mob/living/simple_animal/hostile/human/frontier/salvager/foreman
+	name = "Frontiersman Foreman"
+	desc = "A member of the brutal Frontiersmen terrorist fleet! This one exudes an aura of oversight and confidence. A boarding axe in one hand, and a pistol in the other!"
+	projectilesound = 'sound/weapons/gun/revolver/viper.ogg'
+	attack_sound = 'sound/weapons/melee/heavyaxe_hit1.ogg'
+	projectiletype = /obj/projectile/bullet/a357
+	ranged = 1
+	rapid_fire_delay = 1
+	melee_damage_lower = 25
+	melee_damage_upper = 25
+	armour_penetration = 10
+	attack_verb_continuous = "chops"
+	attack_verb_simple = "chop"
+	r_hand = /obj/item/melee/boarding_axe
+	l_hand = /obj/item/gun/ballistic/revolver/rhino
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/frontier/technician/foreman
+
+/mob/living/simple_animal/hostile/human/frontier/salvager/foreman/Aggro()
+	..()
+	summon_backup(15)
+	say("GET EM, BOYS!!")
