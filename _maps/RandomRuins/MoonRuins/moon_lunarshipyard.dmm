@@ -172,6 +172,11 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/birch,
 /area/space)
+"aP" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/space)
 "aR" = (
 /obj/machinery/door/airlock/hatch,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -1480,6 +1485,11 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel/patterned/grid/dark,
+/area/space)
+"gd" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
 /area/space)
 "ge" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
@@ -5480,6 +5490,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/dark,
 /area/space)
+"wc" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/turf/open/floor/concrete/slab_1,
+/area/space)
 "we" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -7645,6 +7662,13 @@
 	},
 /turf/open/floor/plasteel/patterned/grid/dark,
 /area/space)
+"Ft" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/tracks{
+	icon_state = "floor2-old"
+	},
+/turf/open/floor/plasteel/patterned,
+/area/space)
 "Fu" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -9232,6 +9256,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/tech/grid,
 /area/space)
+"LK" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg1";
+	initial_gas_mix = "ws_atmos"
+	},
+/area/space)
 "LL" = (
 /obj/effect/turf_decal/siding/black{
 	dir = 8
@@ -9788,6 +9818,13 @@
 /turf/open/floor/wood/walnut{
 	icon_state = "wood-broken7"
 	},
+/area/space)
+"Ok" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_1,
 /area/space)
 "Ol" = (
 /obj/effect/turf_decal/siding/wood{
@@ -11471,7 +11508,9 @@
 /obj/structure/cable/pink{
 	icon_state = "9-10"
 	},
-/mob/living/simple_animal/hostile/human/frontier/salvager/foreman,
+/mob/living/simple_animal/hostile/human/frontier/salvager/foreman{
+	pixel_y = -1
+	},
 /turf/open/floor/plating,
 /area/space)
 "Vl" = (
@@ -12604,6 +12643,11 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/patterned/grid/dark,
+/area/space)
+"ZV" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
 /area/space)
 "ZW" = (
 /obj/machinery/atmospherics/pipe/layer_manifold{
@@ -15019,7 +15063,7 @@ oh
 Xj
 MF
 Yv
-yc
+Ft
 rl
 Rc
 ia
@@ -15393,7 +15437,7 @@ On
 On
 ZJ
 On
-Qr
+LK
 On
 Qr
 On
@@ -15474,7 +15518,7 @@ wF
 On
 On
 On
-Qr
+gd
 Qr
 On
 On
@@ -15895,7 +15939,7 @@ On
 Qr
 Qr
 On
-Qr
+gd
 UO
 ko
 Ik
@@ -15977,7 +16021,7 @@ On
 On
 On
 On
-Qr
+aP
 UO
 ko
 Ik
@@ -16058,7 +16102,7 @@ On
 uL
 On
 On
-Qr
+ZV
 Qr
 mz
 ai
@@ -18430,7 +18474,7 @@ qE
 mQ
 xx
 ms
-LD
+wc
 qX
 iL
 Hw
@@ -19086,7 +19130,7 @@ YP
 sL
 jj
 QE
-LD
+Ok
 cI
 UW
 HI
