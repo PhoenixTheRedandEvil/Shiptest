@@ -1582,11 +1582,6 @@
 	},
 /turf/open/floor/concrete/reinforced,
 /area/space)
-"ft" = (
-/obj/structure/chair/bench/red/directional/west,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plating/asteroid/moon_coarse/dark,
-/area/space)
 "fu" = (
 /obj/structure/chair/plastic{
 	dir = 1;
@@ -4747,6 +4742,7 @@
 /obj/structure/cable/orange{
 	icon_state = "6-9"
 	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/concrete/slab_1,
 /area/space)
 "qc" = (
@@ -6340,9 +6336,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/airless,
 /area/space)
-"vp" = (
-/turf/open/space/basic,
-/area/space)
 "vq" = (
 /obj/structure/cable{
 	icon_state = "6-8"
@@ -7791,6 +7784,7 @@
 	icon_state = "0-2"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/mob/living/simple_animal/hostile/human/frontier/plasmacutter,
 /turf/open/floor/plasteel/tech/grid,
 /area/space)
 "AB" = (
@@ -13412,10 +13406,6 @@
 	},
 /turf/open/floor/plasteel/mono,
 /area/space)
-"Uo" = (
-/obj/machinery/artillery/vls,
-/turf/closed/wall/mineral/plastitanium,
-/area/space)
 "Up" = (
 /obj/machinery/atmospherics/pipe/simple/dark/hidden/layer1,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -16772,7 +16762,7 @@ Hb
 wP
 yI
 un
-tM
+un
 rr
 Iu
 Rc
@@ -17864,7 +17854,7 @@ zO
 Hb
 zO
 Rr
-ft
+Rr
 mc
 JY
 VK
@@ -18890,7 +18880,7 @@ Hb
 Hb
 Hb
 gC
-vp
+HS
 "}
 (48,1,1) = {"
 gC
@@ -18972,7 +18962,7 @@ gC
 Hb
 gC
 gC
-vp
+HS
 "}
 (49,1,1) = {"
 gC
@@ -19053,8 +19043,8 @@ Hb
 gC
 gC
 gC
-vp
-vp
+HS
+HS
 "}
 (50,1,1) = {"
 HS
@@ -19135,8 +19125,8 @@ Pz
 gC
 gC
 gC
-vp
-vp
+HS
+HS
 "}
 (51,1,1) = {"
 HS
@@ -19217,8 +19207,8 @@ Pz
 gC
 gC
 gC
-vp
-vp
+HS
+HS
 "}
 (52,1,1) = {"
 HS
@@ -19298,9 +19288,9 @@ Pz
 gC
 gC
 gC
-vp
-vp
-vp
+HS
+HS
+HS
 "}
 (53,1,1) = {"
 HS
@@ -19379,10 +19369,10 @@ wP
 hL
 Pz
 gC
-vp
-vp
-vp
-vp
+HS
+HS
+HS
+HS
 "}
 (54,1,1) = {"
 HS
@@ -19460,11 +19450,11 @@ Hb
 Hb
 Pz
 gC
-vp
-vp
-vp
-vp
-vp
+HS
+HS
+HS
+HS
+HS
 "}
 (55,1,1) = {"
 HS
@@ -19542,11 +19532,11 @@ gC
 gC
 gC
 gC
-vp
-vp
-vp
-vp
-vp
+HS
+HS
+HS
+HS
+HS
 "}
 (56,1,1) = {"
 HS
@@ -19623,12 +19613,12 @@ gC
 gC
 gC
 gC
-vp
-vp
-vp
-vp
-vp
-vp
+HS
+HS
+HS
+HS
+HS
+HS
 "}
 (57,1,1) = {"
 HS
@@ -19705,12 +19695,12 @@ gC
 gC
 gC
 gC
-vp
-vp
-vp
-vp
-vp
-vp
+HS
+HS
+HS
+HS
+HS
+HS
 "}
 (58,1,1) = {"
 HS
@@ -19785,14 +19775,14 @@ Hb
 gC
 gC
 gC
-vp
-vp
-vp
-vp
-vp
-vp
-vp
-vp
+HS
+HS
+HS
+HS
+HS
+HS
+HS
+HS
 "}
 (59,1,1) = {"
 HS
@@ -19867,14 +19857,14 @@ Hb
 gC
 gC
 gC
-vp
-vp
-vp
-vp
-vp
-vp
-vp
-vp
+HS
+HS
+HS
+HS
+HS
+HS
+HS
+HS
 "}
 (60,1,1) = {"
 HS
@@ -19949,14 +19939,14 @@ Hb
 gC
 gC
 gC
-vp
-vp
-vp
-vp
-vp
-vp
-vp
-vp
+HS
+HS
+HS
+HS
+HS
+HS
+HS
+HS
 "}
 (61,1,1) = {"
 HS
@@ -20031,14 +20021,14 @@ Hb
 gC
 gC
 gC
-vp
-vp
-vp
-vp
-vp
-vp
-vp
-vp
+HS
+HS
+HS
+HS
+HS
+HS
+HS
+HS
 "}
 (62,1,1) = {"
 HS
@@ -20114,13 +20104,13 @@ Hb
 gC
 gC
 gC
-vp
+HS
 gC
 gC
-vp
-vp
-vp
-vp
+HS
+HS
+HS
+HS
 "}
 (63,1,1) = {"
 gC
@@ -20200,9 +20190,9 @@ gC
 gC
 gC
 gC
-vp
-vp
-vp
+HS
+HS
+HS
 "}
 (64,1,1) = {"
 gC
@@ -20284,7 +20274,7 @@ gC
 gC
 gC
 gC
-vp
+HS
 "}
 (65,1,1) = {"
 gC
@@ -20365,8 +20355,8 @@ Hb
 Hb
 gC
 gC
-vp
-vp
+HS
+HS
 "}
 (66,1,1) = {"
 HS
@@ -20447,8 +20437,8 @@ Hb
 gC
 gC
 gC
-vp
-vp
+HS
+HS
 "}
 (67,1,1) = {"
 HS
@@ -20530,7 +20520,7 @@ Hb
 gC
 gC
 gC
-vp
+HS
 "}
 (68,1,1) = {"
 HS
@@ -22057,7 +22047,7 @@ Mm
 Uh
 dN
 iz
-Uo
+rq
 FA
 mX
 wP
