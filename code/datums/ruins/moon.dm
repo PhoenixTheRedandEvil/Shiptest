@@ -14,3 +14,9 @@
 	description = "A makeshift ramzi hideout in a cave, holding a smaller garrison."
 	id = "moon_hideout"
 	suffix = "moon_hideout.dmm"
+
+/datum/map_template/ruin/moon/shipyard
+	name = "Frontiersmen Lunar Shipyard"
+	description = "A shuttle shipyard built into the mountainside, manned by hard-working frontiersmen. Dense and highly populated."
+	id = "moon_shipyard"
+	suffix = "moon_lunarshipyard.dmm"
