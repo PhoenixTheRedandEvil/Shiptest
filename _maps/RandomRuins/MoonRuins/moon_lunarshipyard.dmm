@@ -1180,7 +1180,6 @@
 /turf/open/floor/concrete/slab_1,
 /area/space)
 "dW" = (
-/obj/machinery/power/apc/auto_name/directional/west,
 /obj/effect/turf_decal/steeldecal/steel_decals_central7{
 	dir = 1
 	},
@@ -2011,7 +2010,7 @@
 /area/space)
 "gC" = (
 /turf/open/floor/plating/asteroid/moon/lit,
-/area/space)
+/area/overmap_encounter/planetoid/moon/explored)
 "gD" = (
 /obj/structure/cable{
 	icon_state = "1-10"
@@ -2404,7 +2403,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/overmap_encounter/planetoid/moon/explored)
 "hW" = (
 /obj/structure/sink{
 	dir = 4;
@@ -3285,9 +3284,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/cable/orange{
-	icon_state = "2-9"
-	},
 /turf/open/floor/plating/rust,
 /area/space)
 "lt" = (
@@ -3411,7 +3407,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/overmap_encounter/planetoid/moon/explored)
 "lO" = (
 /obj/machinery/suit_storage_unit/open,
 /obj/structure/catwalk/over/plated_catwalk/dark,
@@ -3647,7 +3643,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech/grid,
-/area/space)
+/area/overmap_encounter/planetoid/moon/explored)
 "mF" = (
 /obj/effect/turf_decal/corner/opaque/black/diagonal{
 	dir = 8
@@ -5118,6 +5114,18 @@
 /obj/structure/flora/junglebush,
 /turf/open/floor/plating/asteroid/dirt/jungle/dark,
 /area/space)
+"qC" = (
+/obj/machinery/door/airlock/hatch{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
 "qD" = (
 /obj/effect/turf_decal/trimline/opaque/yellow/filled/warning{
 	dir = 8
@@ -5229,9 +5237,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/cable/orange{
-	icon_state = "1-2"
-	},
 /turf/open/floor/plasteel,
 /area/space)
 "rd" = (
@@ -6461,14 +6466,8 @@
 /turf/open/floor/plating/asteroid/moon_coarse/dark,
 /area/space)
 "vf" = (
-/obj/effect/turf_decal/corner/opaque/black/diagonal,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/power/apc/auto_name/directional/north,
-/obj/structure/cable/orange{
-	icon_state = "0-8"
-	},
-/turf/open/floor/plating/rust,
-/area/space)
+/turf/open/floor/plating/asteroid/moon_coarse/dark,
+/area/overmap_encounter/planetoid/moon/explored)
 "vg" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 4;
@@ -6660,15 +6659,8 @@
 /turf/open/floor/plasteel/mono,
 /area/space)
 "vJ" = (
-/obj/effect/turf_decal/siding/black{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/cable/orange{
-	icon_state = "4-8"
-	},
-/turf/open/floor/carpet/blue,
-/area/space)
+/turf/closed/wall/r_wall,
+/area/overmap_encounter/planetoid/moon/explored)
 "vL" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -6684,9 +6676,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
-	},
-/obj/structure/cable/orange{
-	icon_state = "6-8"
 	},
 /turf/open/floor/plasteel/mono/dark,
 /area/space)
@@ -6975,9 +6964,6 @@
 	dir = 6
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/cable/orange{
-	icon_state = "4-8"
-	},
 /turf/open/floor/concrete/slab_1,
 /area/space)
 "wO" = (
@@ -7259,7 +7245,7 @@
 /area/space)
 "xQ" = (
 /turf/open/floor/plating/asteroid/moon_coarse/dark/lit,
-/area/space)
+/area/overmap_encounter/planetoid/moon/explored)
 "xV" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -7427,7 +7413,7 @@
 "yA" = (
 /obj/effect/turf_decal/road/stop,
 /turf/open/floor/plating/asteroid/moon_coarse/dark,
-/area/space)
+/area/overmap_encounter/planetoid/moon/explored)
 "yC" = (
 /obj/structure/catwalk/over/plated_catwalk,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
@@ -7987,7 +7973,7 @@
 "Ax" = (
 /obj/structure/shipping_container/green,
 /turf/open/floor/plating/asteroid/moon_coarse/dark,
-/area/space)
+/area/overmap_encounter/planetoid/moon/explored)
 "Ay" = (
 /obj/effect/turf_decal/borderfloor,
 /obj/effect/turf_decal/box/corners{
@@ -8658,9 +8644,6 @@
 /obj/structure/noticeboard/directional/north,
 /obj/structure/cable/orange{
 	icon_state = "6-8"
-	},
-/obj/structure/cable/orange{
-	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/mono/dark,
 /area/space)
@@ -9531,9 +9514,6 @@
 /obj/effect/turf_decal/steeldecal/steel_decals_central7{
 	dir = 1
 	},
-/obj/structure/cable/orange{
-	icon_state = "0-4"
-	},
 /turf/open/floor/carpet/blue,
 /area/space)
 "FH" = (
@@ -9713,12 +9693,6 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 4
-	},
-/obj/structure/cable/orange{
-	icon_state = "2-8"
-	},
-/obj/structure/cable/orange{
-	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
 /area/space)
@@ -10207,7 +10181,7 @@
 /area/space)
 "HS" = (
 /turf/template_noop,
-/area/space)
+/area/template_noop)
 "HU" = (
 /obj/structure/chair/bench/grey/directional/east,
 /turf/open/floor/wood,
@@ -10643,14 +10617,14 @@
 /turf/open/floor/plasteel/patterned/grid/dark,
 /area/space)
 "Jf" = (
-/obj/effect/turf_decal/siding/black{
-	dir = 8
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
-	dir = 1
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
 	},
-/obj/machinery/power/apc/auto_name/directional/south,
-/turf/open/floor/plasteel/tech/grid,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/mono/dark,
 /area/space)
 "Jh" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -11456,9 +11430,6 @@
 /obj/effect/turf_decal/corner/opaque/bar/diagonal,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/structure/cable/orange{
-	icon_state = "1-2"
-	},
 /turf/open/floor/plasteel,
 /area/space)
 "Mj" = (
@@ -12682,7 +12653,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/asteroid/moon_coarse/dark,
-/area/space)
+/area/overmap_encounter/planetoid/moon/explored)
 "QG" = (
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -14139,14 +14110,8 @@
 /turf/open/floor/concrete/slab_4/jungleplanet,
 /area/space)
 "VG" = (
-/obj/effect/turf_decal/corner/opaque/grey{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/structure/cable/orange{
-	icon_state = "1-2"
-	},
 /turf/open/floor/plating/rust,
 /area/space)
 "VK" = (
@@ -15637,19 +15602,19 @@ gC
 gC
 Hb
 gC
-Pz
-Pz
-Pz
+vf
+vf
+vf
 gC
 gC
-Pz
-Pz
-Pz
+vf
+vf
+vf
 gC
 gC
-Pz
-Pz
-Pz
+vf
+vf
+vf
 gC
 gC
 gC
@@ -15720,17 +15685,17 @@ Hb
 Hb
 wP
 Rx
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
+vf
+vf
+vf
+vf
+vf
+vf
+vf
+vf
+vf
+vf
+vf
 vg
 Hb
 Hb
@@ -17678,7 +17643,7 @@ un
 Sp
 ko
 wP
-vf
+cs
 qc
 vr
 mp
@@ -18055,7 +18020,7 @@ wP
 wP
 Hb
 Hb
-Pz
+vf
 gC
 gC
 "}
@@ -18137,8 +18102,8 @@ ko
 wP
 wP
 wP
-Pz
-Pz
+vf
+vf
 gC
 "}
 (34,1,1) = {"
@@ -18193,7 +18158,7 @@ Ve
 zO
 tR
 jC
-Jf
+QP
 zO
 Hb
 wr
@@ -18219,8 +18184,8 @@ oP
 FK
 hL
 hL
-Pz
-Pz
+vf
+vf
 gC
 "}
 (35,1,1) = {"
@@ -18300,9 +18265,9 @@ UO
 bI
 Wo
 hL
-Pz
-Pz
-Pz
+vf
+vf
+vf
 gC
 "}
 (36,1,1) = {"
@@ -18382,8 +18347,8 @@ mz
 oP
 Se
 wJ
-Pz
-Pz
+vf
+vf
 gC
 gC
 "}
@@ -18464,8 +18429,8 @@ bL
 Ry
 Wo
 hL
-Pz
-Pz
+vf
+vf
 gC
 gC
 "}
@@ -18546,9 +18511,9 @@ mz
 oP
 LK
 hL
-Pz
-Pz
-Pz
+vf
+vf
+vf
 gC
 "}
 (39,1,1) = {"
@@ -18628,9 +18593,9 @@ bL
 ko
 Ik
 hL
-Pz
-Pz
-Pz
+vf
+vf
+vf
 gC
 "}
 (40,1,1) = {"
@@ -18638,7 +18603,7 @@ HS
 gC
 gC
 gC
-Pz
+vf
 wP
 zF
 zF
@@ -18710,8 +18675,8 @@ QQ
 EN
 Pc
 hL
-Pz
-Pz
+vf
+vf
 gC
 gC
 "}
@@ -18720,7 +18685,7 @@ HS
 gC
 gC
 gC
-Pz
+vf
 qG
 zF
 zF
@@ -18792,9 +18757,9 @@ QW
 ko
 vO
 hL
-Pz
-Pz
-Pz
+vf
+vf
+vf
 gC
 "}
 (42,1,1) = {"
@@ -18874,9 +18839,9 @@ mz
 ai
 Wo
 hL
-Pz
-Pz
-Pz
+vf
+vf
+vf
 gC
 "}
 (43,1,1) = {"
@@ -18957,17 +18922,17 @@ oP
 xe
 ji
 hL
-Pz
-Pz
+vf
+vf
 gC
 "}
 (44,1,1) = {"
 gC
-wP
+vJ
 Hb
-Pz
-Pz
-Pz
+vf
+vf
+vf
 wP
 Hb
 Hb
@@ -19039,19 +19004,19 @@ oP
 wP
 wP
 wP
-Pz
+vf
 gC
 gC
 "}
 (45,1,1) = {"
 gC
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
+vf
+vf
+vf
+vf
+vf
+vf
+vf
 Hb
 Hb
 Hb
@@ -19129,7 +19094,7 @@ gC
 gC
 gC
 QF
-Pz
+vf
 mE
 hU
 hU
@@ -19144,7 +19109,7 @@ fl
 nW
 wP
 CB
-vJ
+DR
 DR
 wP
 Xa
@@ -19211,11 +19176,11 @@ gC
 gC
 gC
 QF
-Pz
-Pz
-Pz
+vf
+vf
+vf
 Ax
-Pz
+vf
 Ax
 Hb
 Hb
@@ -19292,13 +19257,13 @@ HS
 (48,1,1) = {"
 gC
 gC
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
+vf
+vf
+vf
+vf
+vf
+vf
+vf
 Hb
 Hb
 Hb
@@ -19308,7 +19273,7 @@ fl
 OJ
 wP
 wP
-oz
+qC
 wP
 wP
 zO
@@ -19374,13 +19339,13 @@ HS
 (49,1,1) = {"
 gC
 gC
-wP
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
+vJ
+vf
+vf
+vf
+vf
+vf
+vf
 Hb
 zO
 zO
@@ -19394,7 +19359,7 @@ vN
 le
 le
 le
-Xb
+Jf
 jv
 jv
 zO
@@ -19457,8 +19422,8 @@ HS
 HS
 gC
 gC
-Pz
-Pz
+vf
+vf
 mE
 lN
 lN
@@ -19539,11 +19504,11 @@ HS
 HS
 gC
 gC
-wP
-Pz
-Pz
+vJ
+vf
+vf
 Ax
-Pz
+vf
 Ax
 Hb
 zO
@@ -19622,11 +19587,11 @@ HS
 gC
 gC
 gC
-Pz
-Pz
-Pz
-Pz
-Pz
+vf
+vf
+vf
+vf
+vf
 Hb
 zO
 Wk
@@ -19703,12 +19668,12 @@ HS
 HS
 HS
 gC
-wP
-Pz
-Pz
-Pz
-Pz
-Pz
+vJ
+vf
+vf
+vf
+vf
+vf
 wP
 zO
 zO
@@ -19785,7 +19750,7 @@ HS
 HS
 HS
 gC
-Pz
+vf
 mE
 lN
 lN
@@ -19868,9 +19833,9 @@ HS
 gC
 gC
 yA
-Pz
-Pz
-Pz
+vf
+vf
+vf
 Ax
 Hb
 zO
@@ -19950,10 +19915,10 @@ HS
 gC
 gC
 yA
-Pz
-Pz
-Pz
-Pz
+vf
+vf
+vf
+vf
 Hb
 zO
 ca
@@ -20031,11 +19996,11 @@ HS
 HS
 gC
 gC
-Pz
-Pz
-Pz
-Pz
-Pz
+vf
+vf
+vf
+vf
+vf
 Hb
 zO
 sR
@@ -20113,11 +20078,11 @@ HS
 HS
 gC
 gC
-wP
-Pz
-Pz
-Pz
-Pz
+vJ
+vf
+vf
+vf
+vf
 wP
 zO
 gh
@@ -22111,8 +22076,8 @@ Hb
 Hb
 Hb
 ji
-Pz
-Pz
+vf
+vf
 ji
 Hb
 Hb
@@ -22191,10 +22156,10 @@ Hb
 Hb
 wP
 Hb
-Pz
-Pz
-Pz
-Pz
+vf
+vf
+vf
+vf
 Hb
 Hb
 Hb
@@ -22271,12 +22236,12 @@ Hb
 Hb
 Hb
 Hb
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
+vf
+vf
+vf
+vf
+vf
+vf
 Hb
 Hb
 Hb
@@ -22352,11 +22317,11 @@ Hb
 Hb
 Hb
 Hb
-Pz
-Pz
-Pz
-Pz
-Pz
+vf
+vf
+vf
+vf
+vf
 wP
 Hb
 Hb
@@ -22395,7 +22360,7 @@ Ep
 zO
 Hb
 Hb
-gC
+Hb
 gC
 gC
 gC
@@ -22433,10 +22398,10 @@ Hb
 Hb
 Hb
 wP
-Pz
-Pz
-Pz
-Pz
+vf
+vf
+vf
+vf
 wP
 Hb
 Hb
@@ -22476,7 +22441,7 @@ rw
 cg
 zO
 Hb
-gC
+Hb
 gC
 gC
 gC
@@ -22515,14 +22480,14 @@ Hb
 Hb
 Hb
 Hb
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
+vf
+vf
+vf
+vf
+vf
+vf
+vf
+vf
 wP
 Hb
 Hb
@@ -22581,16 +22546,16 @@ gC
 Hb
 Hb
 wP
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
+vf
+vf
+vf
+vf
+vf
+vf
+vf
+vf
+vf
+vf
 wP
 Hb
 Hb
@@ -22598,15 +22563,15 @@ Hb
 Hb
 Hb
 Hb
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
+vf
+vf
+vf
+vf
+vf
+vf
+vf
+vf
+vf
 Hb
 Hb
 wr
@@ -22664,15 +22629,15 @@ Hb
 Hb
 Hb
 gC
-Pz
-Pz
+vf
+vf
 gC
 gC
 gC
-Pz
-Pz
+vf
+vf
 gC
-Pz
+vf
 Hb
 gC
 gC
@@ -22681,14 +22646,14 @@ Hb
 Hb
 Hb
 Hb
-Pz
-Pz
+vf
+vf
 Hb
 Hb
-Pz
-Pz
-Pz
-Pz
+vf
+vf
+vf
+vf
 Hb
 Hb
 wr
@@ -22721,8 +22686,8 @@ Ki
 wr
 zO
 Hb
-gC
-gC
+Hb
+Hb
 Hb
 gC
 HS
@@ -22769,9 +22734,9 @@ Hb
 Hb
 Hb
 wP
-Pz
-Pz
-Pz
+vf
+vf
+vf
 Hb
 wr
 at
@@ -22790,7 +22755,7 @@ Hb
 Hb
 Hb
 Hb
-Pz
+vf
 Hb
 Hb
 Hb
@@ -22804,7 +22769,7 @@ wr
 Hb
 Hb
 Hb
-gC
+Hb
 gC
 gC
 HS
@@ -22852,8 +22817,8 @@ Hb
 Hb
 Hb
 Hb
-Pz
-Pz
+vf
+vf
 Hb
 wP
 at
@@ -22871,8 +22836,8 @@ wr
 Hb
 Hb
 Hb
-Pz
-Pz
+vf
+vf
 Hb
 Hb
 Hb
@@ -22885,7 +22850,7 @@ Hb
 Hb
 Hb
 Hb
-gC
+Hb
 gC
 gC
 gC
@@ -22934,8 +22899,8 @@ Hb
 Hb
 Hb
 Hb
-Pz
-Pz
+vf
+vf
 wP
 wP
 YJ
@@ -22953,9 +22918,9 @@ wr
 Hb
 Hb
 Hb
-Pz
-Pz
-Pz
+vf
+vf
+vf
 Hb
 Hb
 Hb
@@ -23015,9 +22980,9 @@ Hb
 Hb
 Hb
 Hb
-Pz
-Pz
-Pz
+vf
+vf
+vf
 Hb
 wP
 Xg
@@ -23035,10 +23000,10 @@ wr
 Hb
 Hb
 Hb
-Pz
-Pz
-Pz
-Pz
+vf
+vf
+vf
+vf
 Hb
 Hb
 Hb
@@ -23097,8 +23062,8 @@ Hb
 Hb
 Hb
 wP
-Pz
-Pz
+vf
+vf
 Hb
 Hb
 wP
@@ -23118,8 +23083,8 @@ Hb
 Hb
 Hb
 Hb
-Pz
-Pz
+vf
+vf
 gC
 gC
 gC
@@ -23179,8 +23144,8 @@ Hb
 Hb
 Hb
 Hb
-Pz
-Pz
+vf
+vf
 Hb
 Hb
 Hb
@@ -23200,7 +23165,7 @@ Hb
 Hb
 Hb
 Hb
-Pz
+vf
 gC
 gC
 gC
@@ -23260,22 +23225,22 @@ gC
 gC
 Hb
 Hb
-Pz
-Pz
-Pz
-Pz
+vf
+vf
+vf
+vf
 Hb
 Hb
 wP
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
+vf
+vf
+vf
+vf
+vf
+vf
+vf
+vf
+vf
 wP
 Hb
 Hb
@@ -23344,21 +23309,21 @@ gC
 gC
 gC
 gC
-Pz
-Pz
-Pz
+vf
+vf
+vf
 Hb
-Pz
-Pz
-Pz
-Pz
-Pz
-Pz
+vf
+vf
+vf
+vf
+vf
+vf
 gC
 gC
 gC
-Pz
-Pz
+vf
+vf
 Hb
 Hb
 Hb
