@@ -383,7 +383,6 @@
 	wield_delay = 0.85 SECONDS //faster than normal lmgs, slower than stock skm
 
 	has_bipod = TRUE
-	NO_MAG_GUN_HELPER(automatic/hmg/skm_lmg)
 
 /obj/item/gun/ballistic/automatic/hmg/mower
 	name = "\improper Mower"

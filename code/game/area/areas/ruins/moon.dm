@@ -98,32 +98,32 @@
 	name = "Shipyard Hangar"
 	icon_state = "hangar"
 
-/area/ruin/moon/shipyard/hangar1
+/area/ruin/moon/shipyard/hangar/one
 	name = "Shipyard Hangar A"
 
-/area/ruin/moon/shipyard/hangar2
+/area/ruin/moon/shipyard/hangar/two
 	name = "Shipyard Hangar B"
 
-/area/ruin/moon/shipyard/hangar3
+/area/ruin/moon/shipyard/hangar/three
 	name = "Shipyard Hangar C"
 
-/area/ruin/moon/shipyard/hangar4
+/area/ruin/moon/shipyard/hangar/four
 	name = "Shipyard Hangar D"
 
-/area/ruin/moon/shipyard/hangar5
+/area/ruin/moon/shipyard/hangar/five
 	name = "Shipyard Hangar E"
 
-/area/ruin/moon/shipyard/hangar6
+/area/ruin/moon/shipyard/hangar/six
 	name = "Shipyard Hangar F"
 
-/area/ruin/moon/shipyard/hangar7
+/area/ruin/moon/shipyard/hangar/seven
 	name = "Shipyard Hangar G"
 
 /area/ruin/moon/shipyard/cargo
 	name = "Shipyard Storage Bay"
 	icon_state = "cargo_bay"
 
-/area/ruin/moon/shipyard/cargo
+/area/ruin/moon/shipyard/atmos
 	name = "Shipyard Atmospheric Engineering"
 	icon_state = "maint_atmos"
 
@@ -143,6 +143,10 @@
 	name = "Shipyard Southern Hallway"
 	icon_state = "hallP"
 
+/area/ruin/moon/shipyard/hallway/north
+	name = "Shipyard North Hallway"
+	icon_state = "hallS"
+
 /area/ruin/moon/shipyard/dorms
 	name = "Shipyard Dorms"
 	icon_state = "crew_quarters"
@@ -156,3 +160,82 @@
 /area/ruin/moon/shipyard/cafeteria
 	name = "Shipyard Canteen"
 	icon_state = "cafeteria"
+
+/area/ruin/moon/shipyard/bar
+	name = "Shipyard Bar"
+	icon_state = "bar"
+
+/area/ruin/moon/shipyard/comms
+	name = "Shipyard Communications Office"
+	icon_state = "bluenew"
+
+/area/ruin/moon/shipyard/comms
+	name = "Shipyard Communications Office"
+	icon_state = "bluenew"
+
+/area/ruin/moon/shipyard/medbay
+	name = "Shipyard Medical Bay"
+	icon_state = "medbay"
+
+/area/ruin/moon/shipyard/office
+	name = "Shipyard Office"
+	icon_state = "vacant_office"
+
+/area/ruin/moon/shipyard/office/foreman
+	name = "Shipyard Foreman's Office"
+
+/area/ruin/moon/shipyard/office/boss
+	name = "Shipyard Yard Boss' Office"
+	icon_state = "captain"
+
+/area/ruin/moon/shipyard/security
+	name = "Shipyard Security Wing"
+	icon_state = "security"
+
+/area/ruin/moon/shipyard/security/brigoff
+	name = "Shipyard Brig Office"
+	icon_state = "checkpoint1"
+
+/area/ruin/moon/shipyard/security/brig
+	name = "Shipyard Brig"
+	icon_state = "brig"
+
+/area/ruin/moon/shipyard/security/secdorms
+	name = "Shipyard Security Dorms"
+	icon_state = "soc_hos"
+
+/area/ruin/moon/shipyard/smokes
+	name = "Shipyard Smoking Room"
+	icon_state = "hall_service"
+
+/area/ruin/moon/shipyard/engineering
+	name = "Shipyard Engineering Closet"
+	icon_state = "engine"
+
+/area/ruin/moon/shipyard/engineering/radiation
+	name = "Shipyard Radioisotope Room"
+	icon_state = "dk_yellow"
+
+/area/ruin/moon/shipyard/engineering/mechbay
+	name = "Shipyard Exo Garage"
+	icon_state = "mechbay"
+
+/area/ruin/moon/shipyard/cryo
+	name = "Shipyard Cryogenics Bay"
+	icon_state = "cryo"
+
+/area/ruin/moon/shipyard/store
+	name = "Shipyard General Store"
+	icon_state = "vacant_commissary"
+
+/area/ruin/moon/shipyard/refinery
+	name = "Shipyard Refinery Quarter"
+	icon_state = "ass_line"
+
+/area/ruin/moon/shipyard/elevator
+	name = "Shipyard Elevator Lobby"
+	icon_state = "hallFP"
+
+/area/ruin/moon/shipyard/motorpool
+	name = "Shipyard Motor Pool"
+	icon_state = "workshop"

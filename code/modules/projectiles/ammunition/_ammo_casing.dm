@@ -257,3 +257,6 @@
 
 /obj/item/ammo_casing/spent/slug/rubber
 	icon_state = "rubber"
+
+/obj/item/ammo_casing/spent/slug/laser
+	icon_state = "laser"

@@ -604,6 +604,53 @@
 /mob/living/simple_animal/hostile/human/frontier/ranged/officer/wasp/internals/neutered
 	weapon_drop_chance = 0
 
+/mob/living/simple_animal/hostile/human/frontier/ranged/officer/slammer
+	name = "Frontiersman Captain"
+	desc = "This Frontiersman stands with a pride that the lesser Frontiersmen lack. They have a confident look on their face. Hands clutching their shotgun close, and level with you."
+	retreat_distance = 2
+	minimum_distance = 1
+	shoot_point_blank = TRUE
+	projectilesound = 'sound/weapons/gun/shotgun/brimstone.ogg'
+	casingtype = /obj/item/ammo_casing/shotgun/buckshot
+	r_hand = /obj/item/gun/ballistic/shotgun/automatic/slammer
+
+/mob/living/simple_animal/hostile/human/frontier/ranged/officer/slammer/internals
+	icon_state = "frontiersmanofficer_mask"
+	atmos_requirements = IMMUNE_ATMOS_REQS
+	minbodytemp = 0
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/frontier/ranged/officer/internals
+
+/mob/living/simple_animal/hostile/human/frontier/ranged/officer/slammer/internals/shipyard
+	name = "Yard Boss DuClaine"
+	desc = "This Frontiersman wears an annoyed look across his face. The end of his shotgun glowing blue with plasma residue and heat - whatever it is you just interrupted, he's not happy about it."
+	casingtype = /obj/item/ammo_casing/shotgun/laserscatter
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/frontier/ranged/officer/internals/shipyard
+	armor_base = /obj/item/clothing/suit/armor/vest/marine/frontier
+	rapid = 2
+	rapid_fire_delay = 5
+
+/mob/living/simple_animal/hostile/human/frontier/ranged/officer/wasp/neutered
+	weapon_drop_chance = 0
+
+/mob/living/simple_animal/hostile/human/frontier/ranged/officer/wasp/internals
+	icon_state = "frontiersmanofficer_mask"
+	atmos_requirements = IMMUNE_ATMOS_REQS
+	minbodytemp = 0
+	mob_spawner = /obj/effect/mob_spawn/human/corpse/frontier/ranged/officer/internals
+
+/mob/living/simple_animal/hostile/human/frontier/ranged/officer/wasp/internals/neutered
+	weapon_drop_chance = 0
+
+/obj/effect/mob_spawn/human/corpse/frontier/ranged/officer/internals/shipyard
+	outfit = /datum/outfit/frontier/officer/internals/shipyard
+
+/datum/outfit/frontier/officer/internals/shipyard
+	name = "Frontiersman Officer Corpse Internals (Shipyard)"
+	mask = /obj/item/clothing/mask/gas/sechailer
+	suit = /obj/item/clothing/suit/armor/vest/marine/frontier
+	back = /obj/item/storage/backpack/satchel/tailbag
+	backpack_contents = list(/obj/item/storage/box/ammo/a12g_scatter = 2)
+
 /mob/living/simple_animal/hostile/human/frontier/plasmacutter
 	name = "Frontiersman Scrapcutter"
 	desc = "A member of the brutal Frontiersman terrorist fleet! This one is dressed in engineering gear, and hefts a dangerous looking plasmacutter!"
