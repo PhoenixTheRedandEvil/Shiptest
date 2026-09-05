@@ -645,8 +645,6 @@
 	resistance_flags = FLAMMABLE
 	drop_sound = 'sound/items/handling/cardboardbox_drop.ogg'
 	pickup_sound =  'sound/items/handling/cardboardbox_pickup.ogg'
-	var/emblem_icon_state = "null"
-	var/ration_overlay = "null"
 
 /obj/item/storage/medpack/ComponentInitialize()
 	. = ..()
