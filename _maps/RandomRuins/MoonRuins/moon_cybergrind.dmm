@@ -11938,7 +11938,7 @@
 /area/ruin/moon/cybergrind/reception)
 "QW" = (
 /mob/living/simple_animal/hostile/automated/rover{
-	name = "Reprogrammed Vigilitas \"Scenthound\" defense rover";
+	name = "Captured Vigilitas defense rover";
 	faction = list("hostile");
 	desc = "A scouting drone manufactured by Sharplite during the Inter-Corporate War. Commonly fielded in small forward groups ahead of Vigilitas teams, or placed in security checkpoints. This one seems to have been reappropriated for other means"
 	},
